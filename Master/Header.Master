@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Header.master.cs" Inherits="DJXYong.Master.Header" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Button ID="Register_btn" runat="server" Text="Register" OnClick="Register_btn_Click"/>
+            <asp:Button ID="Login_btn" runat="server" Text="Login" OnClick="Login_btn_Click"/>
+            <asp:Button ID="Insert_btn" runat="server" Text="Insert" OnClick="Insert_btn_Click"/>
+            <asp:Button ID="Logout_btn" runat="server" Text="Logout" OnClick="Logout_btn_Click"/>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
